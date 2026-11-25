@@ -2619,6 +2619,34 @@
     .reveal-on-scroll.delay-3 { transition-delay: 0.55s !important; }
     .reveal-on-scroll.delay-4 { transition-delay: 0.75s !important; }
 
+    /* Tamaño estándar y equilibrado para reseñas */
+    .testimonial-carousel-stage {
+      align-items: stretch;
+    }
+    .testimonial-card {
+      padding: 1.85rem 2.25rem !important;
+      min-height: 235px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .testimonial-quote-text {
+      flex-grow: 0 !important;
+      margin-bottom: 1.35rem !important;
+      font-size: clamp(1rem, 1.55vw, 1.15rem) !important;
+      line-height: 1.65 !important;
+    }
+    @media (max-width: 768px) {
+      .testimonial-card {
+        padding: 1.35rem 1.25rem !important;
+        min-height: 215px;
+      }
+      .testimonial-card-top {
+        margin-bottom: 1rem !important;
+        padding-bottom: 0.75rem !important;
+      }
+    }
+
     .editorial-brand-logo {
       height: 84px !important;
       max-width: 340px !important;
@@ -3421,7 +3449,7 @@
                   </svg>
                 </div>
                 <p class="testimonial-quote-text">
-                  “Como los tiempos eran muy justos, hicieron todo lo posible para que pudiera examinarme antes de que mi teórico caducara. Sin duda, <strong>el profe Rubén ha jugado un papel clave</strong>: gracias a su enseñanza y paciencia, ¡aprobé a la primera!”
+                  “Hicieron todo lo posible para que pudiera examinarme a tiempo. Sin duda, <strong>el profe Rubén ha jugado un papel clave</strong>: gracias a su enseñanza y paciencia, ¡aprobé a la primera!”
                 </p>
                 <div class="testimonial-author-row">
                   <div class="testimonial-avatar" aria-hidden="true">AN</div>
